@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matt Brooks - Custom Videos & Merch</title>
+  <meta name="description" content="Custom videos and merch from Matt Brooks. Watch the reels, then buy straight from here." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#">Matt Brooks</a>
+      <nav class="nav">
+        <a href="#videos">Custom Videos</a>
+        <a href="#merch">Merch</a>
+        <a href="#instagram">Instagram</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>From the reel, straight to yours.</h1>
+        <p>Watch Matt's reels on Instagram, then come here to get a custom video made for you, or grab merch from the shop below.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#videos">Get a custom video - $50</a>
+          <a class="btn btn-secondary" href="#merch">Shop merch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="videos" class="section">
+      <div class="container">
+        <h2>Custom Videos</h2>
+        <p class="section-lead">A video made just for you, by Matt, delivered by hand.</p>
+        <div class="product-grid">
+          <article class="product-card featured">
+            <h3>Custom Video</h3>
+            <p class="price">$50</p>
+            <p>One custom video, made to order. Tell Matt what you want in it, he makes it, and he delivers it to you directly.</p>
+            <ul>
+              <li>Made to order, not off the shelf</li>
+              <li>Delivered by Matt himself</li>
+              <li>Secure checkout with Stripe</li>
+            </ul>
+            <!-- Checkout is scaffolded only: the Stripe checkout link is not connected yet. See config.js and README.md. -->
+            <button class="btn btn-primary" disabled title="Checkout opens once Matt's Stripe account is connected.">Checkout - coming soon</button>
+            <p class="note">Checkout opens once Matt's Stripe account is connected. No payment is taken on this page yet.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="merch" class="section section-alt">
+      <div class="container">
+        <h2>Merch</h2>
+        <p class="section-lead">Merch is coming. Categories below will fill in with real products and prices once the print-on-demand catalog is connected.</p>
+        <div class="product-grid">
+          <article class="product-card placeholder-card">
+            <h3>Stickers</h3>
+            <p class="coming-soon">Products loading soon</p>
+            <p>Stickers will appear here once the print-on-demand catalog is connected.</p>
+          </article>
+          <article class="product-card placeholder-card">
+            <h3>Posters</h3>
+            <p class="coming-soon">Products loading soon</p>
+            <p>Posters will appear here once the print-on-demand catalog is connected.</p>
+          </article>
+          <article class="product-card placeholder-card">
+            <h3>Tees</h3>
+            <p class="coming-soon">Products loading soon</p>
+            <p>Tees will appear here once the print-on-demand catalog is connected.</p>
+          </article>
+          <article class="product-card placeholder-card">
+            <h3>Hoodies</h3>
+            <p class="coming-soon">Products loading soon</p>
+            <p>Hoodies will appear here once the print-on-demand catalog is connected.</p>
+          </article>
+          <article class="product-card placeholder-card">
+            <h3>Hats</h3>
+            <p class="coming-soon">Products loading soon</p>
+            <p>Hats will appear here once the print-on-demand catalog is connected.</p>
+          </article>
+          <article class="product-card placeholder-card">
+            <h3>Tumblers</h3>
+            <p class="coming-soon">Products loading soon</p>
+            <p>Tumblers will appear here once the print-on-demand catalog is connected.</p>
+          </article>
+        </div>
+        <p class="note">No prices are shown for merch yet because no real products are connected. Nothing here is a listing until the catalog lands.</p>
+      </div>
+    </section>
+
+    <section id="instagram" class="section">
+      <div class="container">
+        <h2>On Instagram</h2>
+        <p class="section-lead">Matt's reels live on Instagram. This section links out to his profile once his handle is added.</p>
+        <!-- Placeholder handle slot: replace INSTAGRAM_HANDLE in config.js with Matt's real handle. -->
+        <p><a id="instagram-link" class="btn btn-secondary" href="#" data-placeholder="true">Instagram - handle coming soon</a></p>
+        <p class="note">The Instagram link is a placeholder until Matt's handle is added.</p>
+      </div>
+    </section>
+
+    <section id="about" class="section section-alt">
+      <div class="container">
+        <h2>About Matt</h2>
+        <p>Matt makes reels on Instagram, and this is his store. Custom videos are made to order and delivered by hand. Merch is printed on demand and shipped to you.</p>
+        <p class="note">More about Matt goes here once he supplies it. Nothing on this page is invented.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Matt Brooks. All rights reserved.</p>
+      <p class="note">Site built free by family. Payments, when live, run through Matt's own Stripe account.</p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
