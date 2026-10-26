@@ -1,0 +1,6 @@
+# Never commit secrets to this repo.
+.env
+*.pem
+*.key
+node_modules/
+.DS_Store
